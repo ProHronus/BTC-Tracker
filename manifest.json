@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "BTC price tracker",
+  "description": "The extension for real-time monitoring of the BTC-USD rate from Coinbase API. Open-source: https://github.com/ProHronus/BTC-Tracker",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "img/btc-19.png",
+    "default_popup": "popup.html",
+    "default_title": "BTCtracker"
+  },
+  "icons": { 
+    "16": "img/btc-16.png",
+    "19": "img/btc-19.png",
+    "48": "img/btc-48.png",
+    "128": "img/btc-128.png"
+  },
+  "permissions": [
+  ]
+}
